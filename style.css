@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height:100%;
+}
+body{
+    margin:0;
+    background-color: aquamarine !important;
+    background-image: url("grad.jpg");
+}
+
+.mytable{
+    margin: 50px auto;
+}
+
+.row{
+    display:table;
+    width: 70%;
+    margin: 10px auto;
+    font-family: monospace;
+    background: transparent;
+    padding: 12px 0;
+    color: #560;
+    box-shadow: 0 8px 10px 0 rgba(0,0,50,0.3);
+}
+
+.timeofday{
+    font-style: italic ;
+    font-size: 25px;
+}
+
+.activity{
+    font-size: 20px;
+}
+
+.tableheader{
+    background-color: #8665f7;
+    background-image: url(headcover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    margin:2px auto;
+    padding: 250px 0;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+    font-size: 100px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,50,0.3);
+    color:rgb(9, 17, 15);
+    font-weight: 100px;
+    font-family: 'Amatic SC', cursive;
+    font-style: italic;
+}
